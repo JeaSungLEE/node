@@ -1,0 +1,7 @@
+html
+  body
+    - var dan = h3message
+    p= dan
+      |단 <br>
+      - for (var i=1; i<10; i++)
+          p= (dan + " * " + i + ' = ' + dan*i)
