@@ -1,0 +1,10 @@
+<% include header.html %>
+
+<h3>Rows</h3>
+<ul>
+  <% rows.forEach(function(row,index){ %>
+    <li><%= row.num %>: <%= row.carname %></li>
+  <% }) %>
+</ul>
+
+<% include footer.html %>
